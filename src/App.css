@@ -1,0 +1,46 @@
+.app {
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+
+.card {
+  width: 250px;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.price {
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.stock {
+  display: inline-block;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 14px;
+}
+
+.in {
+  background: #d4edda;
+  color: #155724;
+}
+
+.out {
+  background: #f8d7da;
+  color: #721c24;
+}
+
+button {
+  margin-top: 10px;
+  padding: 8px;
+  width: 100%;
+}
